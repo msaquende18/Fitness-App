@@ -1,2 +1,2 @@
-# React Fitness - App
+# Fitness Web App
 
