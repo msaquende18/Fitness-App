@@ -31,10 +31,10 @@ const Detail = ({ exerciseDetail }) => {
           {name}
         </Typography>
         <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color="#4F4C4C">
-          Exercises keep you strong.{' '}
-          <span style={{ textTransform: 'capitalize' }}>{name}</span> bup is one
-          of the best <br /> exercises to target your {target}. It will help you improve your{' '}
-          <br /> mood and gain energy.
+          Exercícios mantem você forte:.{' '}
+          <span style={{ textTransform: 'capitalize' }}>{name}</span> Agachamento 
+          é um dos <br /> melhores exercícios {target}. Vai ajudar a melhorar{' '}
+          <br /> teu modo e ganho de energia.
         </Typography>
         {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
