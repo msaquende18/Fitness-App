@@ -34,7 +34,7 @@ const Detail = ({ exerciseDetail }) => {
           Exercícios mantem você forte:.{' '}
           <span style={{ textTransform: 'capitalize' }}>{name}</span> Agachamento 
           é um dos <br /> melhores exercícios {target}. Vai ajudar a melhorar{' '}
-          <br /> teu modo e ganho de energia.
+          <br /> tua forma e ganho de energia.
         </Typography>
         {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
